@@ -1,0 +1,26 @@
+[
+  {
+    "username": "kosta-lap@yandex.ru",
+    "password": "$2a$10$xstMKP5ytk1MS5pNkub5neEuOoSkH/7yUxhtxa6AXZaF1qNUwqgR6",
+    "fullName": "arfsda",
+    "phoneNumber": "+998909011516",
+    "userID": "555b80b4-67b9-49db-924f-60076f134383",
+    "isAdmin": true
+  },
+  {
+    "username": "davrony56@gmail.com",
+    "password": "$2a$10$OmjeMmeTIrTaZVlswzYMxOArSnn7297jtIhSJZTlvlbt2t9ohDW6G",
+    "fullName": "Davron",
+    "phoneNumber": "+998909708667",
+    "userID": "c542dc88-32ff-47c6-b750-7c26cdd97156",
+    "isAdmin": true
+  },
+  {
+    "username": "localHost@gmail.com",
+    "password": "$2a$10$3lvyVeUbSvxZAQ/PLMqCbOkHj7mB4EGyxUVW/00EVeFKUAXEvCVqG",
+    "fullName": "Bek",
+    "phoneNumber": "+998998542782",
+    "userID": "40e7eef5-344d-475f-920c-b2a9b0a6528b",
+    "isAdmin": false
+  }
+]

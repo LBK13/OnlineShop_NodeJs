@@ -1,0 +1,49 @@
+[{
+        "imgurl": "/img/img_placeholder.jpg",
+        "imgUrls": [
+            "/img/img_placeholder.jpg",
+            "/img/blue_polo_1.jpg",
+            "/img/blue_polo_2.jpg"
+        ],
+        "title": "Blue Polo",
+        "price": 20.99,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, totam. Beatae explicabo voluptate et id! Ipsam velit a consequuntur sit?",
+        "qty": 10,
+        "code": "1h3",
+        "prodId": "fcddf902-ff82-4e6b-a99d-3adadb8dc12f",
+        "color": "Blue",
+        "sizes": [{
+                "size": "XS",
+                "qty": 2
+            },
+            {
+                "size": "S",
+                "qty": 8
+            }
+        ]
+    },
+    {
+        "imgurl": "/img/white_polo_124.jpg",
+        "imgUrls": [
+            "/img/white_polo_124.jpg",
+            "/img/white_polo_124_1.jpg",
+            "/img/white_polo_124_2.jpg"
+        ],
+        "title": "White Polo",
+        "price": 40,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, totam. Beatae explicabo voluptate et id! Ipsam velit a consequuntur sit?",
+        "qty": 10,
+        "code": "124",
+        "prodId": "19d0a409-5d88-486a-8bfa-8b52e2c6e356",
+        "color": "White",
+        "sizes": [{
+                "size": "XS",
+                "qty": 2
+            },
+            {
+                "size": "S",
+                "qty": 8
+            }
+        ]
+    }
+]

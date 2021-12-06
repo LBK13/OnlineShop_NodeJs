@@ -1,0 +1,32 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("Pho Apparel E-shop")
+    body
+        .wrapper
+            header 
+                +nav
+            .content
+                .news
+                    .container
+                        main 
+                            h1 Sales 
+                                span up to 70%
+                .section
+                    .container
+                        h2 Products
+                        .cards_wrapper
+                            each prod in products
+                                .card_item
+                                    img.card_image(src=prod.imgUrl alt="")
+                                    .card_body
+                                        h3(class ="card_title") #{prod.title}
+                                        p(class ="card_price") #{prod.price}$
+                                        p #{prod.desc}
+                                        .card_wrapper
+                                            a(href="/product/" + prod._id) Learn more
+                                            a(href="") Add to card
+            +footer
+        script(src="./js/index.js")             

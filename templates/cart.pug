@@ -1,0 +1,40 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("Cart")
+    body
+        .wrapper
+            header 
+                +nav
+            .content
+                .container
+                    h1(class="product_info") Card
+                    .table 
+                        table(class="orders")
+                            tbody 
+                                tr
+                                    th 1
+                                    td Футболка красная S
+                                tr
+                                    th 2
+                                    td Брюки синие 33 размер 
+                                tr
+                                    th 3
+                                    td Lorem ipsum dolor sit amet. 
+                                tr
+                                    th 4
+                                    td Lorem ipsum dolor sit amet. 
+                                tr
+                                    th 5
+                                    td Lorem ipsum dolor sit amet. 
+                                tr
+                                    th 6
+                                    td Lorem ipsum dolor sit amet.  
+                        button(class="btn_buy order") Заказать                      
+            +footer
+            div(class="modal hidden")
+                p Ваш заказ обработан!
+                button 
+        script(src="./js/index.js")    

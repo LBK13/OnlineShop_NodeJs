@@ -1,0 +1,17 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("Sign in")
+    body
+        .wrapper
+            header 
+                +nav
+            .content.page_404
+                .page_box 
+                    h1(class="page404") 404 page not found
+                    p It looks like something went wrong
+                    a(href="/") Go to home page
+            +footer
+        script(src="/js/index.js")         

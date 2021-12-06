@@ -1,0 +1,41 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("Product Info")
+    body
+        .wrapper
+            header 
+                +nav
+            .content
+                .container
+                    h1(class="product_info") #{thisProd.title}
+                    .product_wrapp
+                        .product_images
+                            each img in thisProd.imgUrls
+                                img(src=img alt="")
+                        .product_desc
+                            p(class="price") #{thisProd.price} $
+                            p #{thisProd.desc}
+                            p
+                                b Артикул: 
+                                | #{thisProd.code}
+                            button(class="btn_buy") Buy
+                    table(class="table_product")
+                        tbody
+                            tr
+                                th Размер
+                                td
+                                    each size in thisProd.sizes
+                                        b  #{size.size}  
+                                        span #{size.qty} шт 
+                                        br
+                            tr  
+                                th Цвет
+                                td #{thisProd.color}
+                            tr  
+                                th Цена
+                                td #{thisProd.price} $
+            +footer
+        script(src="./js/index.js")  

@@ -1,0 +1,17 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("Personal cabinet")
+    body 
+        .wrapper
+            header 
+                +nav
+                .section
+                    .container
+                        h1 Personal cabinet
+                        p ...
+                        button.delete Delete my account
+            +footer
+        script(src="./js/index.js")      

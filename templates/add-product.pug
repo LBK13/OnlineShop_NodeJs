@@ -1,0 +1,30 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("Add product")
+    body
+        .wrapper
+            header 
+                +nav
+            .content
+                .container
+                    h1.login_header Add product 
+                    form(action="/admin/add-product" method="POST" class="add_product_form")
+                        input(type="text" name="title" placeholder="Add title" required)
+                        input(type="number" name="price" placeholder="Add price" required)
+                        input(type="text" name="code" placeholder="Add code" required)
+                        input(type="text" name="color" placeholder="Add color" required)
+
+                        input(type="text" name="mainimgUrl" placeholder="Link to the main image" required)
+                        input(type="text" name="secondimgUrl" placeholder="Link to the second image" required)
+                        input(type="text" name="thirdimgUrl" placeholder="Link to the third image" required)
+                        input.add_size_btn(type="button" value="Add size")
+            
+                        textarea(name="desc" placeholder="Add product description")
+                        input(type="submit" value="Add product" class="submit")
+            +footer
+        script(src="/js/addProduct.js")
+        script(src="/js/add_Product.js")
+        script(src="/js/index.js")

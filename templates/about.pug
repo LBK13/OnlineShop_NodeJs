@@ -1,0 +1,59 @@
+include includes/head
+include includes/nav
+include includes/footer
+doctype html
+html(lang="en")
+    +head("About us")
+    body
+        .wrapper
+            header 
+                +nav
+            .content
+                .container
+                    h1(class="product_info") About us
+                    .about_block
+                        p 
+                            |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolore debitis animi iure
+                            | accusamus, error, consequuntur dignissimos dicta porro voluptatem et, rem ratione quasi placeat
+                            | a tempora? Voluptatem, mollitia hic?
+                        p 
+                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel animi architecto necessitatibus
+                            | assumenda! Error praesentium atque repellendus aperiam quis quia, sed possimus facere, esse eaque
+                            | molestias, nesciunt magni consequatur rem fugiat exercitationem nihil doloremque veniam quisquam
+                            | fuga. Repellat ratione rem deleniti nemo minima sapiente hic officiis odio unde. Excepturi,
+                            | molestiae, tempore accusamus error perferendis reprehenderit magnam adipisci esse ipsa, labore
+                            | possimus? Voluptates id eius eaque odio deleniti doloremque fuga cumque corporis. Exercitationem
+                            | totam, vel quas corporis delectus sunt autem voluptas praesentium quae nostrum qui, voluptatibus
+                            | perferendis numquam nemo unde fugiat quisquam? Distinctio, veritatis molestias quisquam quam nemo
+                            | nulla. Repellendus, blanditiis!
+                        iframe(class="youtube" width="1000" height="500" src="https://www.youtube.com/embed/ALEIbNB-d7g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen)
+                        p 
+                            |Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi debitis quidem vel dolor,
+                            |nulla ducimus minima consequatur! Consequuntur ullam culpa quisquam aliquam incidunt nobis,
+                            |harum cupiditate iusto labore repellat nostrum eos hic? Saepe magni, doloremque accusantium
+                            |dolorem vero laudantium explicabo fugiat aspernatur laborum porro consectetur.
+                    .contact 
+                        h2 Contact Information
+                        .contact_info 
+                            h3 We're here to help!
+                            p Call us: +8756438239, 6am - 8pm PST, 7 Days a Week
+                            p Email us: 
+                                a(href="#") lorem@googles.com
+                            h3 Questions? Select a topic to learn more!
+                            p
+                                a(href="#") Frequently Asked Questions
+                            p
+                                a(href="#") Shipping &amp; Delivery
+                            p 
+                                a(href="#") Returns
+                    .address
+                        h2 Our address
+                        .address_frames
+                            iframe(src="https://yandex.ru/map-widget/v1/?um=constructor%3A6250b70729806f1a9364fa85f2668eaec50219873646423d7567d320c87e3259&amp;source=constructor" width="550" height="400" frameborder="0") 
+                            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.2756256438818!2d69.28407487731566!3d41.30663367629905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b71790fb19d%3A0x3200873b75e5132f!2sIT%20Step%20Academy!5e0!3m2!1sru!2s!4v1627017074723!5m2!1sru!2s" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy") 
+
+            +footer
+        script(src="./js/index.js")    
